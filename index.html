@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main>
+        <div class="bodyofcal">
+            <div class="answer1"><p class="answer">0</p></div> <!-- Default value of 0 -->
+            <div class="allbutton">
+                <button class="number1" onclick="fun1()">1</button>
+                <button class="number2" onclick="fun2()">2</button>
+                <button class="number3" onclick="fun3()">3</button>
+                <button class="number4" onclick="fun4()">4</button>
+                <button class="number5" onclick="fun5()">5</button>
+                <button class="number6" onclick="fun6()">6</button>
+                <button class="number7" onclick="fun7()">7</button>
+                <button class="number8" onclick="fun8()">8</button>
+                <button class="number9" onclick="fun9()">9</button>
+                <button class="number10" onclick="fun0()">0</button>
+                <button class="number11" onclick="addOperator('+')">+</button>
+                <button class="number12" onclick="addOperator('-')">-</button>
+                <button class="number13" onclick="addOperator('*')">x</button>
+                <button class="number14" onclick="addOperator('/')">/</button>
+                <button class="number15" onclick="calculateResult()">=</button>
+                <button class="lagre" onclick="point()">.</button>
+                <button class="small" onclick="clearAll()">AC</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>

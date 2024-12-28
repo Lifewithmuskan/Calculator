@@ -1,0 +1,81 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+body,html{
+    background-color: rgb(255, 240, 251);
+    color:#987D9A;
+}
+
+
+.bodyofcal{
+    margin: auto;
+    margin-top: 5%;
+    padding: 0px;
+    width:400px;
+    height: 500px;
+    background-color:#987D9A;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr); /* 3 buttons per row */
+    gap: 15px;
+    border-radius: 10px;
+
+}
+.lagre{
+    width: 125px;
+}
+
+.small{
+    width: 180px;
+}
+
+.allbutton{
+    margin:0px 40px 0px 50px;
+    background-color: #BB9AB1;
+}
+
+button{
+    background-color: hsl(0deg 0% 100% / 33%);
+    width: 100px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: bolder;
+
+}
+
+
+
+
+.answer1 {
+    background-color: #FEFBD8;
+    width: 350px;
+    height: 80px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center; 
+    justify-content: end; 
+    padding: 0 10px; 
+    overflow: hidden; 
+}
+
+.answer {
+    text-align: end;
+    font-size: clamp(1rem, 2vw, 2rem);
+    margin: 0;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+
+
+
+
+button:hover {
+    background-color: rgb(246, 204, 133);
+}
